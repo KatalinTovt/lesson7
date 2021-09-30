@@ -1,0 +1,157 @@
+
+#header{
+  display: flex;
+  justify-content: center;
+}
+#btn-search{
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #3eb33e;
+  height: 45px;
+  width: 670px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+#inpt{
+  border-radius: 5px;
+  width: 670px;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  color: grey;
+}
+#content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+.film{
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  height: 550px;
+  width: 300px;
+  box-sizing: border-box;
+  margin: 0 17px;
+}
+.img{
+  border-radius: 5px 5px 0 0;
+  height: 350px;
+  width: 298px;
+}
+.name{
+  color: black;
+  background-color: rgb(202 202 202);
+  box-sizing: border-box;
+  text-align: center;
+  height: 60px;
+  padding: 13px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.style{
+  color: black;
+  height: 30px;
+  text-align: center;
+  padding: 10px;
+}
+.age{
+  color: black;
+  height: 30px;
+  text-align: center;
+  
+}
+.btn-more{
+  background-color: #3eb33e;
+    color: white;
+    box-sizing: border-box;
+    width: 298px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+
+.area{
+  display: inline-block;
+  background:rgba(0,0,0,.4);
+  cursor:pointer;
+  display:none;
+  height:100%;
+  position:fixed;
+  
+  top:0;
+  width:100%;
+  z-index:10000;
+}
+.area .information{
+ 
+ 
+}
+
+.information{
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  flex-direction: row;
+  height: auto;
+  min-height: 600px;
+  border-radius: 8px;
+  padding: 35px;
+  background-color: #fff;
+  width: 60%;
+  position: relative;
+}
+
+.first{
+  width: 350px;
+  height: 600px
+}
+.more-img{
+  width: 350px;
+  height: 600px
+
+}
+.second{
+  margin-left: 15px;
+}
+.more-name{
+  background-color: #b4b3b3;
+  height: 65px;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #292929;
+  box-sizing: border-box;
+  text-align: center;
+}
+.more-rated-year-ganre{
+  margin: 10px 3px;
+  color: gray;
+  font-size: 14px;
+}
+.plot{
+  margin: 3px;
+  line-height: 1.5;
+  font-size: 17px;
+}
+.writer, .director, .actors, .box-office ,.awards, .ratings{
+  font-size: 17px;
+  margin-left: 3px;
+  margin-top: 15px;
+}
+.bold{
+  font-weight: bold;
+}
+.ratings{
+
+}
+.in{
+  font-size: 17px;
+  margin-left: 3px;
+}
